@@ -1,0 +1,12 @@
+print("===============================")
+print("Student Percentage Calculator")
+print("===============================")
+a = input("Enter your FULL NAME: ")
+d = input("Enter your CLASS: ")
+b = int(input("Enter your OBTAINED MARKS: "))
+c =int(input("Enter your TOTAL MARKS: "))
+percentage = (b / c) * 100
+print("=========REPORT CARD==========")
+print("Name: ", a)
+print("Class: ", d)
+print("Your percentage is: ", percentage, "%")
